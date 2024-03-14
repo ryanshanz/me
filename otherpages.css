@@ -1,0 +1,141 @@
+@font-face {
+    font-family: "RobotoMono";
+    src: url("RobotoMono-Thin.ttf");
+}
+@counter-style computer {
+    system: cyclic;
+    symbols: '\1F4BB';
+    suffix: " ";
+  }
+  
+ul#menu li{
+    display: inline;
+    margin: 0;
+    text-align: center;
+    font-family: "RobotoMono", 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+ul#menu li:hover{
+    background-color: rgb(152, 147, 147);
+    transition: .35s;
+}
+.navbar{
+    text-align: center;
+    background-color: white;
+    color: #000000;
+    border-radius: 1rem;
+    margin: 0;
+}
+h2{
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 0%;
+    font-size: 20px;
+}
+  
+
+body{
+    background-color: #57456e;
+    background: linear-gradient(140deg, rgb(72, 45, 146) 0%, rgba(97, 61, 138, 0.849) 33%,rgba(131, 114, 193, 0.811)) 89%;
+
+    color: white;
+}
+li{
+    color: #1f51bc;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-weight: 600;
+}
+
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+}
+h1{
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem;
+    width: 25%;
+    font-size: 30px;
+    background: -webkit-linear-gradient(#eee, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    background-image: linear-gradient(45deg, #ffffff 16.666%, #E16541 16.666%, #E16541 33.333%, #F18F43 33.333%, #F18F43 50%, #45a50d 50%, #accd3f 66.666%, #476098 66.666%, #476098 83.333%, #A7489B 83.333%);
+    background-size: 100%;
+    background-color: white;
+    font-family: "RobotoMono";
+}
+
+@keyframes rainbow-text-simple-animation-rev {
+    0% {
+        background-size: 650%;
+    }
+    40% {
+        background-size: 650%;
+    }
+    100% {
+        background-size: 100%;
+    }
+}
+
+@keyframes rainbow-text-simple-animation {
+    0% {
+        background-size: 100%;
+    }
+    80% {
+        background-size: 650%;
+    }
+    100% {
+        background-size: 650%;
+    }
+}
+.header{
+    border-radius: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    padding: 0%;
+    background-color: white;
+
+}
+.about-me{
+    background-color: white;
+    border-radius: 1rem;
+    padding:0%;
+    color: black;
+    font-family: "RobotoMono";
+    font-weight: 600;
+
+}
+.all-pictures{
+    background-color: white;
+    border-radius: 1rem;
+    padding:0%;
+    color: black;
+    font-family: "RobotoMono";
+    font-weight: 600;
+
+}
+.all-pictures img{
+    padding: 20px;
+}
+p{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+    margin: 0;
+    font-size: 15px;
+}
+.back{
+    color: red;
+}
