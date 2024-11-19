@@ -128,6 +128,8 @@ h1{
 }
 .all-pictures img{
     padding: 20px;
+    max-width: 25%;
+    max-height: 25%
 }
 p{
     padding-left: 1rem;
@@ -138,4 +140,7 @@ p{
 }
 .back{
     color: red;
+}
+.all-pictures{
+    text-align: center;
 }
